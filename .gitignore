@@ -1,1 +1,41 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
 .venv
+.venv/
+
+# Ignore Node.js modules and logs
+node_modules/
+npm-debug.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Ignore OS-generated files
+Thumbs.db
+.DS_Store
+
+# Ignore sensitive configuration files
+config.json
+*.env
+.env.*
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore binaries or compiled files
+*.exe
+*.dll
+*.so
+*.bin
+*.class
+
